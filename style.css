@@ -24,17 +24,17 @@ body {
     width: 250px;
     height: 250px;
     margin: 20px auto;
-    overflow: hidden;         /* ← Скрываем лишние изображения */
+    overflow: hidden;   
     border-radius: 10px;
 }
 
 .slider-row {
-    width: 1250px;  /* 5 изображений × 250px */
+    width: 1250px;
     height: 250px;
     display: flex;
     position: relative;
     left: 0;
-    transition: left 0.5s;    /* ← Плавное движение */
+    transition: left 0.5s;  
 }
 
 .slider-row img {
